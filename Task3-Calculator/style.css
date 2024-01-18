@@ -1,0 +1,82 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0,69,111);
+background: linear-gradient(93deg, rgba(0,69,111,1) 0%, rgba(0,54,86,1) 48%, rgba(0,0,0,1) 100%);
+}
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  background: #ffffff44;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.display {
+  height: 80px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #000e1a;
+  pointer-events: none;
+  background: #ffffff31;
+}
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.buttons button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #eeeeee6a;
+}
+.buttons button:active {
+  transform: scale(0.99);
+}
+.operator {
+  color: #ff2f9e;
+}
+
+.operator_del{
+  color: #4e2fff;
+}
+
+.operator_AC {
+  color: #00ff40;
+}
+.operator_mod {
+  color: #ff2f9e;
+}
+.operator_div {
+  color: #ff0000;
+}
+.operator_mul {
+  color: #0091ff;
+}
+.operator_sub {
+  color: #2fc8ff;
+}
+.operator_add {
+  color: #d4ff00;
+}
+.operator_eql {
+  color: #8400ff;
+}
